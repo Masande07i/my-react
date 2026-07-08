@@ -9,22 +9,22 @@
 }
 
 .left {
-    flex: 1;
+    flex:7;
+    justify-content:baseline;
 }
 
-.subtitle {
-    color: #08F4CC;
-    margin-bottom: 15px;
+.left span{
+    color:#0ef8d1;
 }
 
-.heading {
-    color: white;
-    margin-bottom: 20px;
+
+.left p{
+    line-height:1.8;
+    font-size:15px;
+    max-width:520px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.highlight {
-    color: #08F4CC;
-}
 
 .line {
     width: 120px;
@@ -33,32 +33,14 @@
     margin: 20px 0;
 }
 
-.description {
-    color: white;
-    line-height: 1.8;
-    margin-bottom: 30px;
-}
-
 .button {
     padding: 12px 30px;
-
     border: none;
     border-radius: 5px;
-
     background-color: #08F4CC;
-
     cursor: pointer;
-
     font-weight: bold;
 }
-.button-hover{ 
-    color : white;
-}
-
-.cards {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-    gap: 20px;
+.button:hover{
+    color: white;
 }
