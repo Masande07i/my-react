@@ -44,3 +44,35 @@
 .button:hover{
     color: white;
 }
+.right {
+    flex: 1;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.card {
+    width: 220px;
+    height: 300px;
+    background: #494848;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.icon {
+    font-size:34px;
+    color:#12F7D6;
+    flex-shrink:0;
+}
+
+.card p {
+    color: white;
+    line-height: 1.6;
+}
