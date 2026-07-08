@@ -1,18 +1,13 @@
 .card {
     width: 250px;
     height: 200px;
-
     background-color: #151515;
-
     border-radius: 10px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     padding: 20px;
-
     text-align: center;
 }
 
@@ -22,6 +17,6 @@
 }
 
 .description {
-    color: #cfcfcf;
+    color: white;
     line-height: 1.6;
 }
