@@ -53,26 +53,27 @@
 }
 
 .card {
-    width: 220px;
+    width: 200px;
     height: 300px;
     background: #494848;
-    border-radius: 8px;
+    border-radius: 8px; 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content:center;
     align-items: center;
     text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-}
+    padding: 5px;
+}  
 
 .icon {
-    font-size:34px;
+    font-size:50px;
     color:#12F7D6;
-    flex-shrink:0;
+}
+.card h3{
+    color: white;
 }
 
 .card p {
     color: white;
     line-height: 1.6;
-}
+} 

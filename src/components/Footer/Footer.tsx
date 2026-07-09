@@ -43,8 +43,8 @@ export const Footer = () => {
           </div>
 
 
-      <div className={style.bottom}>
-        <Text variant='h4'> DESIGN BY{" "}
+        <div className={style.bottom}>
+          <Text variant='h4'> DESIGN BY{" "}
           <span className={style.brand}>HYKROX</span>
         </Text>
       </div>

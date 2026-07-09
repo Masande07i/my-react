@@ -8,25 +8,24 @@ import { Footer } from './components/Footer/Footer.tsx'
 function App() {
 
   return(
-    <div>
-
-       <div className= "backgroundLetters">
-          <span>H</span>
-          <span>Y</span>
-          <span>K</span>
-          <span>R</span>
-          <span>O</span>
-          <span>X</span>
-       </div>
-
-
-      <Navbar/>
-      <Hero/> 
-      <Section/> 
-      <About/>
-      <Footer/> 
-   
+    <>
+    <div className ='page-container'>
+       
+     <div className ='bg-text-container'>
+      <h1 className='vertical-text'>HYKROX</h1> 
     </div>
+      <div className='main-content'>
+          <Navbar/>
+          <Hero/> 
+           <Section/>  
+          <About/>
+       
+      </div>
+    </div>
+
+   <Footer/>
+   
+    </>
   )
 }
 export default App

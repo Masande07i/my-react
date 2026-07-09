@@ -1,26 +1,88 @@
-body{
-    background-color: black;
+#app-container{
+    min-height: calc(100vh - 100px);
+    position: relative;
+    width: 100vw;
+    padding-bottom: 100px;
 }
-.backgroundLetters{
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  /* use gap */
-  align-items: center;
-  justify-content: center;
-  pointer-events: none;
- 
+#scrollable{
+    padding-top: 60px;
 }
 
-.backgroundLetters span{
-    font-size:90px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:600;
-    color:#12dbd1;
-    opacity:.08;
-    line-height:1.5;
+body{
+    background-color: rgb(31, 26, 26);
 }
+
+.page-container {
+position: relative;
+width: 100%;
+min-height: 100vh;
+overflow: hidden;
+/* background-color: #F8F9FA;  */
+}
+
+/* Centers the background text container */
+.bg-text-container {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 1; /* Sits behind main content */
+pointer-events: none; /* Prevents text from blocking clicks */
+}
+
+/* Makes the text vertical, large, and faint */
+.vertical-text {
+font-size: 24rem;
+font-weight: 900;
+text-orientation: upright;
+ color: rgb(2, 70, 58); 
+text-transform: uppercase;
+letter-spacing: 5px;
+white-space: nowrap;
+
+/* Key properties for vertical orientation */
+writing-mode: vertical-rl;
+transform: rotate(0deg); /* Flips it so it reads top-to-bottom */
+}
+
+/* Keeps your main content interactive and on top */
+.main-content {
+position: relative;
+z-index: 2; /* Sits in front of background text */
+
+}
+/* 
+.hykrox-label{
+    position:relative;
+    overflow: hidden;
+}
+.hykrox-label::before{
+    content: "HYKROX";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    font-size: clamp(10rem, 28vw,22rem);
+    font-weight: 600;
+    letter-spacing: 150px;
+    color:#097e78;
+    white-space: nowrap;
+    pointer-events: none;
+    user-select:none;
+    z-index: 0;
+}
+
+.page content>*{
+    position: relative;
+    z-index: 1;
+}
+ */
+
+
+
     
 
