@@ -1,0 +1,30 @@
+.card{
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center; */
+    background-color: blueviolet;
+    width:40%;
+    padding:30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.s;
+}
+.card:hover{
+    transform:  translateY(-9px);
+
+}
+
+
+
+
+.icon{
+    font-size:50px;
+    color:#12F7D6;
+}
+.card h2{
+    color: white;
+}
+.card p{
+    color: white;
+    line-height: 1.6;
+}

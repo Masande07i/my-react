@@ -7,9 +7,10 @@ import { About } from './components/About/About.tsx'
 import { Footer } from './components/Footer/Footer.tsx'
 function App() {
 
+
   return(
     <>
-    <div className ='page-container'>
+     <div className ='page-container'> 
        
      <div className ='bg-text-container'>
       <h1 className='vertical-text'>HYKROX</h1> 
@@ -17,7 +18,7 @@ function App() {
       <div className='main-content'>
           <Navbar/>
           <Hero/> 
-           <Section/>  
+            <Section/>   
           <About/>
        
       </div>

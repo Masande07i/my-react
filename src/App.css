@@ -1,4 +1,4 @@
-#app-container{
+/* #app-container{
     min-height: calc(100vh - 100px);
     position: relative;
     width: 100vw;
@@ -6,7 +6,7 @@
 }
 #scrollable{
     padding-top: 60px;
-}
+} */
 
 body{
     background-color: rgb(31, 26, 26);
@@ -55,32 +55,8 @@ position: relative;
 z-index: 2; /* Sits in front of background text */
 
 }
-/* 
-.hykrox-label{
-    position:relative;
-    overflow: hidden;
-}
-.hykrox-label::before{
-    content: "HYKROX";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
-    font-size: clamp(10rem, 28vw,22rem);
-    font-weight: 600;
-    letter-spacing: 150px;
-    color:#097e78;
-    white-space: nowrap;
-    pointer-events: none;
-    user-select:none;
-    z-index: 0;
-}
 
-.page content>*{
-    position: relative;
-    z-index: 1;
-}
- */
+
 
 
 
