@@ -1,10 +1,9 @@
 .searchIcon {
-    font-size: 24px;
-    color: rgb(14, 248, 209);
+    font-size: 30px;
+    color: #0ef8d1;
+    cursor: pointer; 
 
-    transition: 0.3s;
 }
-
 .searchIcon:hover {
     color: white;
 }

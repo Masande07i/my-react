@@ -1,10 +1,8 @@
 footer{
-     position:absolute;
-    color:aliceblue;
+    position:absolute;
     bottom:auto;
     width: 100%;
-    padding: 60px 0;   
-    
+    padding: 80px; 
 }
 
 .container{
@@ -24,7 +22,8 @@ footer{
     gap:15px;
     color:white;
     text-align:center;
-    min-width:180px;
+    min-width:10px;
+    cursor: pointer;
 }
 
 .icon{
@@ -41,20 +40,19 @@ footer{
 .card h1{
     margin:0;
 }
-.bottom{
+.footer-label{
     display:flex;
     justify-content:center;
     align-items:center;
-
     margin-top:60px;
 }
 
-.bottom h4{
+.footer-label h4{
     color:white;
-    font-weight:400;
+    font-weight:200;
     letter-spacing:1px;
 }
-.brand{
+.name{
     color:rgb(8,244,204);
     font-weight:bold;
 }

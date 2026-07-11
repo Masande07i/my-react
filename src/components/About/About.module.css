@@ -20,18 +20,16 @@
 }
 
 .line{
-    width:130px;
-    height:3px;
+    width:100px;
+    height:1.5px;
     background:#0ef8d1;
-    margin:20px 0;
-
 }
 
 .right p{
     line-height:1.8;
     font-size:15px;
     max-width:520px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 .features {
@@ -87,7 +85,7 @@
 .icon{
     font-size:34px;
     color:#12F7D6;
-    flex-shrink:0;
+    /* flex-shrink:0; */
 }
 
 .featureHeader h3{

@@ -1,4 +1,3 @@
-import React from 'react'
 import style from './Hero.module.css'
 import HeroImage from '../../assets/HeroImage.jpeg'
 import Text from '../Text/Text.tsx'
@@ -8,21 +7,20 @@ export const Hero = () => {
     <section className={style.hero}>
 
       <div className={style.left}>
-         <Text variant='h4' style={{ color: "#12F7D6", letterSpacing: "2px" }}>
+          <Text variant='h6' style={{color: "#0ef8d1",fontFamily: "Rajdhani, sans-serif",fontWeight: 500}} >
             CREATIVE DESIGNER
           </Text>
       
-          <Text variant='h1' style={{color: "white"}}>
+          <Text variant='h1'>
             WE ARE{" "}
             <span className={style.highlight}>CREATIVE</span>
             <br/>
-            <br/>
-            DESIGNERS
-            </Text>
+           DESIGNERS
+          </Text>
 
-        <div className={style.line}></div>
+      <div className={style.line}></div>
 
-         <Text variant='p' style={{color: "white"}}>  
+         <Text variant='p'>  
             Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been the industry's
             standard dummy text ever since the 1500s, when an unknown

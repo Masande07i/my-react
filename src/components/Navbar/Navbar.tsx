@@ -1,4 +1,3 @@
-
 import style from './Navbar.module.css'
 import Text from '../Text/Text.tsx'
 import {Search} from '../Search/Search.tsx'
@@ -9,9 +8,9 @@ export const Navbar = () => {
         <div className={style.content}>
 
             <div className={style.logo}>
-            <Text variant= "h2" style={{color: "rgb(8, 244, 204)"}} > HYKROX </Text>
-             <Text variant={"h3"} style={{color: "rgb(8, 244, 204)"}}> unique designs </Text>
-             </div>
+              <Text variant= "h1" style={{color: "#0ef8d1"}} > HYKROX </Text>
+              <Text variant={"p"} style={{color: "#0ef8d1"}}> unique designs </Text>
+            </div>
 
              <div className={style.links}>
                 <a href= '/#' className={style.link}>HOME</a>
@@ -23,7 +22,7 @@ export const Navbar = () => {
 
                 <Search/>
 
-            </div>
+             </div>
         </div>
     </nav>
   ) 

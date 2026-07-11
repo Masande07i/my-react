@@ -1,25 +1,22 @@
 .card{
-    /* display: flex;
-    flex-wrap: wrap;
-    align-items: center; */
-    background-color: blueviolet;
-    width:40%;
+    background: rgba(37, 37, 37, 0.4);
     padding:30px;
     border-radius: 10px;
     text-align: center;
-    transition: transform 0.s;
+    cursor: pointer;
+    width: 150px;
+    height: 220px;
+
+   
 }
+
 .card:hover{
     transform:  translateY(-9px);
-
 }
-
-
-
 
 .icon{
     font-size:50px;
-    color:#12F7D6;
+    color:#0ef8d1;
 }
 .card h2{
     color: white;

@@ -1,20 +1,29 @@
 .section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-top: 0px;
-    margin-bottom: -60px;
-    padding:80px;
-    gap: 60px;
+    gap: 80px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 40px;
+    min-height: 100vh;
 
 }
 
 .left {
-    flex:7;
-    justify-content:baseline;
+    flex:1;
+    
 }
 
-.left span{
+.left h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color:white;
+}
+
+.highlight{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
     color:#0ef8d1;
 }
 
@@ -28,62 +37,35 @@
 
 
 .line {
-    width: 120px;
-    height: 3px;
-    background-color: #08F4CC;
-    margin: 20px 0;
+    width: 100px;
+    height: 1.5px;
+    background-color: #0ef8d1;
 }
 
 .button {
-    padding: 12px 30px;
+    padding: 12px 20px; 
     border: none;
     border-radius: 5px;
-    background-color: #08F4CC;
+    background-color: #0ef8d1;
+    color:white;
     cursor: pointer;
     font-weight: bold;
 }
 .button:hover{
-    color: white;
+    color: black;
 }
 
-.cards{
-    display:flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    width: 55%;
-    
-}
-/* }
 .right {
     flex: 1;
-    justify-content: center;
+    
+}
+.cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
-} */
-/* 
-.card {
-    width: 200px;
-    height: 300px;
-    background: #494848;
-    border-radius: 8px; 
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
-    padding: 5px;
-}   */
+    width: 55%;
+    max-width: 60px;
+    /* background: rgba(27, 27, 27, 0.4); */
 
-/* .icon {
-    font-size:50px;
-    color:#12F7D6;
-}
-.card h3{
-    color: white;
 }
 
-.card p {
-    color: white;
-    line-height: 1.6;
-}  */

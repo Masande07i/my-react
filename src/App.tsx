@@ -18,7 +18,7 @@ function App() {
       <div className='main-content'>
           <Navbar/>
           <Hero/> 
-            <Section/>   
+          <Section/>   
           <About/>
        
       </div>

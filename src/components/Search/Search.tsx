@@ -1,4 +1,3 @@
-
 import style from './Search.module.css'
 import { FaSearch } from 'react-icons/fa'
 

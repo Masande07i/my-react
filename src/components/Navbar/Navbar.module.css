@@ -1,10 +1,9 @@
 nav{
     position:absolute;
     top:0;
-    left: 4;
+    left: 3;
     padding:0 30px;
-    width: 100vw;
-    height: 80px;
+    width: 110vw;
 }
 
 .content{
@@ -16,10 +15,21 @@ nav{
     justify-content: space-between;
     align-items: center;   
 }
+
 .logo{
     display: flex;
     flex-direction: column; 
-    line-height: 0; 
+    line-height: 0.3; 
+}
+
+.logo h1{
+    font-family: "Eurostile", sans-serif;
+    font-weight: 500;
+}
+.logo p{ 
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: center;
 }
 
 .links{
@@ -27,15 +37,16 @@ nav{
     align-items: center;
     gap : 35px;
 }
+
 .link{
     text-decoration: none; 
-    color: rgb(14, 248, 209); 
+    font-family: "Eurostile", sans-serif;
+    font-weight: 750;
+    color: #0ef8d1; 
     padding:5px  ; 
     cursor: pointer; 
+
 }
 .link:hover{
     color : white;
 }
-/* @media () {
-    
-} */

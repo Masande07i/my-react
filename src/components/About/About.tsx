@@ -34,39 +34,34 @@ export const About = () => {
 
              <div className={style.features}>
 
-      <div className={style.feature}>
+              <div className={style.feature}>
 
-     <div className={style.featureHeader}>
-      <FaEye className={style.icon} />
+               <div className={style.featureHeader}>
+                <FaEye className={style.icon} />
+                <Text variant="h3" style={{ color: "white" }}> Clean Code</Text>
+               </div>
+                <Text variant="p" style={{ color: "white" }}>
+                 Lorem Ipsum is simply dummy text of the printing.
+                 </Text>
+              </div>
 
-      <Text variant="h3" style={{ color: "white" }}>
-        Clean Code
-      </Text>
-    </div>
+                 <div className={style.feature}>
 
-    <Text variant="p" style={{ color: "white" }}>
+          <div className={style.featureHeader}>
+            <FaLaptopCode className={style.icon} />
+
+          <Text variant="h3" style={{ color: "white" }}>
+            Modern Design
+          </Text>
+          </div>
+
+         <Text variant="p" style={{ color: "white" }}>
       Lorem Ipsum is simply dummy text of the printing.
     </Text>
 
   </div>
 
-  <div className={style.feature}>
-
-    <div className={style.featureHeader}>
-      <FaLaptopCode className={style.icon} />
-
-      <Text variant="h3" style={{ color: "white" }}>
-        Modern Design
-      </Text>
     </div>
-
-    <Text variant="p" style={{ color: "white" }}>
-      Lorem Ipsum is simply dummy text of the printing.
-    </Text>
-
-  </div>
-
-</div>
         </div>
 
 
