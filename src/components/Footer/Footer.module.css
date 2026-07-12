@@ -1,8 +1,6 @@
 footer{
-    position:absolute;
-    bottom:auto;
-    width: 100%;
-    padding: 80px; 
+   width:100%;
+    padding:80px 20px;
 }
 
 .container{
@@ -28,7 +26,7 @@ footer{
 
 .icon{
     font-size:55px;
-    color:rgb(8,244,204);
+    color:#0ef8d1;
 
 }
 .card h3{
@@ -39,7 +37,11 @@ footer{
 
 .card h1{
     margin:0;
+    font-family: "Eurostile", sans-serif;
+    font-weight: 550;
+    font-size: 20px;
 }
+
 .footer-label{
     display:flex;
     justify-content:center;
@@ -53,54 +55,85 @@ footer{
     letter-spacing:1px;
 }
 .name{
-    color:rgb(8,244,204);
+    color:#0ef8d1;
     font-weight:bold;
 }
 
 
+@media (max-width:992px){
 
+    .container{
+        justify-content:center;
+        gap:40px;
+    }
 
+    .card{
+        width:180px;
+    }
 
+    .icon{
+        font-size:45px;
+    }
 
-
-
-
-
-
-/* }
-.footer-cont{
-    margin:0 auto;
-}  */
-
-/* .flexbox-container{
-    background-color: aqua;
-    border: 5px;
-    display: flex;
-    flex-direction:row;
-    align-content: space-between;
-}
-.flexbox-item{
-    width: 200px;
-    margin: 10px;
-    border: 3px solid black;
-    background-color: aliceblue;
-    
-}
-.flexboxitem{
-    width: 200px;
-    margin: 10px;
-    border: 3px solid black;
-    background-color: aliceblue;
-    
+    .card h1{
+        font-size:18px;
+    }
 }
 
-.project{
-    min-height:100px;
+@media (max-width:768px){
+
+    footer{
+        padding:60px 20px;
+    }
+
+    .container{
+        flex-direction:column;
+        gap:35px;
+    }
+
+    .card{
+        width:100%;
+    }
+
+    .icon{
+        font-size:40px;
+    }
+
+    .card h3{
+        font-size:18px;
+    }
+
+    .card h1{
+        font-size:16px;
+    }
+
+    .footer-label{
+        margin-top:40px;
+        text-align:center;
+    }
+
 }
 
-.pleasure{
-    min-height: 200px;
-} */
+@media (max-width:480px){
 
+    footer{
+        padding:40px 15px;
+    }
 
+    .icon{
+        font-size:34px;
+    }
 
+    .card h3{
+        font-size:16px;
+    }
+
+    .card h1{
+        font-size:14px;
+    }
+
+    .footer-label h4{
+        font-size:14px;
+    }
+
+}

@@ -1,7 +1,7 @@
 import Text from "../Text/Text";
 import style from "./Section.module.css";
 import { SectionCard } from "../SectionCard/SectionCard";
-import {FaLaptopCode, FaThLarge,FaPaintBrush, FaImage,} from "react-icons/fa"
+import {FaLaptopCode, FaThLarge,  FaObjectGroup, FaImage,} from "react-icons/fa"
 import { useState } from "react";
 
 
@@ -11,7 +11,7 @@ export const Section = () => {
 const [services] = useState([
     {icon: FaLaptopCode, title: "Website Design", description: "We can design for you a website and we can upload them.", id:1},
     {icon: FaThLarge ,title: "Mobile & Desktop App" , description: "We can create for you mobile and desktop app.", id:2},
-    {icon: FaPaintBrush,title: "UI & UX Design", description: "We can create for you mobile and desktop app." ,id:3},
+    {icon:  FaObjectGroup,title: "UI & UX Design", description: "We can create for you mobile and desktop app." ,id:3},
     {icon: FaImage,title: "Editing Photo" , description:"We can design for you a website and we can upload them.", id:4 }
 ])
 

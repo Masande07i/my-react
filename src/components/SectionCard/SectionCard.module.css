@@ -20,8 +20,11 @@
 }
 .card h2{
     color: white;
+    font-family: "Eurostile", sans-serif;
 }
 .card p{
     color: white;
     line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }

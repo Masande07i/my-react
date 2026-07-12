@@ -7,10 +7,9 @@ position: relative;
 width: 100%;
 min-height: 100vh;
 overflow: hidden;
-/* background-color: #F8F9FA;  */
 }
 
-/* Centers the background text container */
+
 .bg-text-container {
 position: absolute;
 top: 0;
@@ -20,11 +19,11 @@ height: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-z-index: 1; /* Sits behind main content */
-pointer-events: none; /* Prevents text from blocking clicks */
+z-index: 1; 
+pointer-events: none; 
 }
 
-/* Makes the text vertical, large, and faint */
+
 .vertical-text {
 font-size: 24rem;
 font-weight: 800;
@@ -35,15 +34,20 @@ text-transform: uppercase;
 letter-spacing: 5px;
 white-space: nowrap;
 
-/* Key properties for vertical orientation */
+
 writing-mode: vertical-rl;
-transform: rotate(0deg); /* Flips it so it reads top-to-bottom */
+transform: rotate(0deg); 
 }
 
-/* Keeps your main content interactive and on top */
+
 .main-content {
 position: relative;
-z-index: 2; /* Sits in front of background text */
+z-index: 2; 
+}
+@media(max-width: 768px){
+   .page-container{
+    flex-direction: column;
+   }
 }
 
 

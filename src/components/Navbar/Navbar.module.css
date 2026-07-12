@@ -1,19 +1,19 @@
 nav{
     position:absolute;
     top:0;
-    left: 3;
-    padding:0 30px;
-    width: 110vw;
+    left:0;
+    width:100%;
+    padding:20px 30px;
+    
 }
 
 .content{
-    width: 90%;
-    max-width: 1200px;
-    height: 80%;
+   max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;   
+    align-items: center;
+
 }
 
 .logo{
@@ -49,4 +49,63 @@ nav{
 }
 .link:hover{
     color : white;
+}
+
+
+@media (max-width:992px){
+
+    .content{
+        width:100%;
+    }
+
+    .links{
+        gap:20px;
+    }
+
+    .link{
+        font-size:14px;
+    }
+
+    .logo h1{
+        font-size:28px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    nav{
+        padding:20px;
+    }
+
+    .content{
+        width:100%;
+    }
+
+    .links{
+        display:none;
+    }
+
+    .logo h1{
+        font-size:24px;
+    }
+
+    .logo p{
+        font-size:12px;
+    }
+
+}
+@media (max-width:480px){
+
+    nav{
+        padding:15px;
+    }
+
+    .logo h1{
+        font-size:20px;
+    }
+
+    .logo p{
+        font-size:11px;
+    }
 }
