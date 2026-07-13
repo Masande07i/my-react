@@ -42,7 +42,7 @@ body{
    position: relative;
    z-index: 2; 
 }
-@media(max-width: 768px){
+/* @media(max-width: 768px){
    .page-container{
     flex-direction: column;
    }
@@ -52,7 +52,7 @@ body{
      .page-container{
     flex-direction: column;
    }
-}
+} */
 
 
 

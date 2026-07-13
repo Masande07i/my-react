@@ -1,5 +1,5 @@
 .about{
-     max-width:1200px; 
+    max-width:1200px; 
     margin:auto;
     min-height:80vh;
     display:flex;
@@ -15,7 +15,7 @@
     filter: blur(5px);
 }
 
-.right span{
+.highlight{
     color:#0ef8d1;
 }
 
@@ -43,12 +43,19 @@
     flex-wrap: wrap;
 }
 
-.feature {
+.card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     flex: 1;
     min-width: 220px;
+}
+
+.header{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:12px;
 }
 
 .icon {
@@ -57,75 +64,15 @@
     margin-bottom: 15px;
 }
 
-.feature h3 {
+.header h3 {
     color: white;
     margin: 0 0 12px 0;
 }
 
-.feature p {
+.card p {
     color: white;
     margin: 0;
     line-height: 1.6;
-}
-.features{
-    display:flex;
-    gap:40px;
-    margin-top:40px;
-    flex-wrap:wrap;
-}
-
-.feature{
-    flex:1;
-    min-width:220px;
-}
-
-.featureHeader{
-    display:flex;
-    align-items:center;
-    gap:12px;
-    margin-bottom:12px;
-}
-
-.icon{
-    font-size:34px;
-    color:#12F7D6;
-}
-
-.featureHeader h3{
-    margin:0;
-    color:white;
-    font-family: "Eurostile", sans-serif;
-    font-weight: 750;
-}
-
-.feature p{
-    margin:0;
-    color:white;
-    line-height:1.5;
-    font-size:15px;
-    max-width:580px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-@media (max-width:992px){
-
-    .about{
-        max-width:90%;
-        gap:50px;
-    }
-
-    .image{
-        width:320px;
-    }
-
-    .right p{
-        font-size:14px;
-    }
-
-    .features{
-        gap:25px;
-    }
-
 }
 
 @media (max-width:768px){
@@ -137,57 +84,9 @@
         padding:60px 20px;
     }
 
-    .image{
-        width:100%;
-        max-width:350px;
-    }
-
-    .line{
-        margin:20px auto;
-    }
-
-    .right p{
-        max-width:100%;
-    }
-
     .features{
         flex-direction:column;
         gap:30px;
         margin-top:40px;
     }
-
-    .feature{
-        align-items:center;
-        text-align:center;
-    }
-
-    .featureHeader{
-        justify-content:center;
-    }
-
-}
-
-@media (max-width:480px){
-
-    .about{
-        padding:40px 15px;
-    }
-
-    .image{
-        max-width:280px;
-        border-radius:25px;
-    }
-
-    .icon{
-        font-size:28px;
-    }
-
-    .featureHeader h3{
-        font-size:18px;
-    }
-
-    .feature p{
-        font-size:14px;
-    }
-
 }

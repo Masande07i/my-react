@@ -94,7 +94,6 @@
         padding:60px 20px;
     }
     .cards{
-        /* width:100%; */
         max-width:400px;
         grid-template-columns:repeat(2,1fr);
         gap:20px;

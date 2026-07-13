@@ -7,9 +7,8 @@ export const About = () => {
   return (
     <section className={style.about}>
 
-        <div className= {style.left}>
-            <img src={AboutImage} alt="About" className={style.image}/>
-        </div>
+        <img src={AboutImage} alt="About" className={style.image}/>
+       
 
         <div className={style.right}>
           <Text variant= 'h6' style={{color: "#0ef8d1",fontFamily: "Rajdhani, sans-serif",fontWeight: 500 }}>
@@ -33,8 +32,8 @@ export const About = () => {
 
              <div className={style.features}>
 
-                <div className={style.feature}>
-                  <div className={style.featureHeader}>
+                <div className={style.card}>
+                  <div className={style.header}>
                    <FaEye className={style.icon} />
                    <Text variant="h3" style={{ color: "white" }}> Clean Code</Text>
                   </div>
@@ -43,8 +42,8 @@ export const About = () => {
                    </Text>
                 </div>
 
-                <div className={style.feature}>
-                  <div className={style.featureHeader}>
+                <div className={style.card}>
+                  <div className={style.header}>
                    <FaWindowRestore className={style.icon} />
                    <Text variant="h3" style={{ color: "white" }}>Modern Design</Text>
                  </div>

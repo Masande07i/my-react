@@ -30,11 +30,11 @@ footer{
 
 }
 .card h3{
-    color:white;
     margin:0;
-    letter-spacing:1px;
     font-family: "Lucida Console", "Courier New", monospace;
-    font-weight: 550;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
 }
 
 .card h1{
@@ -42,6 +42,7 @@ footer{
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight: 550;
     font-size: 20px;
+    color:#0ef8d1;
 }
 
 .footer-label{
@@ -52,6 +53,6 @@ footer{
 }
 .name{
     color:#0ef8d1;
-    font-Family: "Lucida Console", "Courier New", monospace;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-Weight: 700;
 }

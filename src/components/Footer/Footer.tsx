@@ -12,36 +12,32 @@ export const Footer = () => {
           <div className={style.card}>
           <FaRegWindowRestore className={style.icon} />
           <Text variant='h3'>PROJECT</Text>
-           <Text variant = 'h1' style ={{color: "#0ef8d1"}}>
-          300+ </Text>
+           <Text variant = 'h1'>300+ </Text>
           </div>
 
           <div className={style.card}>
             <FaChartBar className={style.icon}/>
             <Text variant = 'h3'>PLEASURE</Text>
-            <Text variant = 'h1' style ={{color: "#0ef8d1"}}>
-            8,9</Text>
+            <Text variant = 'h1' >8,9</Text>
           </div>
 
           <div className= {style.card}>
             <FaUserAlt className={style.icon}/>
             <Text variant = 'h3'>CUSTOMER</Text>
-            <Text variant = 'h1' style ={{color: "#0ef8d1"}}> 
-            3000+</Text>
+            <Text variant = 'h1' > 3000+</Text>
           </div>
 
           <div className= {style.card}>
             <FaUsers className= {style.icon}/>
             <Text variant = 'h3'>TEAM MEMBERS</Text>
-            <Text variant = 'h1' style ={{color: "#0ef8d1"}}>
-            23</Text>
+            <Text variant = 'h1' >23</Text>
           </div>
 
       </div>
 
 
         <div className={style['footer-label']}>
-          <Text variant='h4' style={{color: "white", fontFamily:"Montserrat, sans-serif", fontWeight: 700}} > DESIGN BY{" "}
+          <Text variant='h4' style={{color: "white", fontFamily:"Lucida Console, Courier New", fontWeight: 700}} > DESIGN BY{" "}
           <span className={style.name}>HYKROX</span>
         </Text>
       </div>
