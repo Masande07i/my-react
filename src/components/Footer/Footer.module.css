@@ -33,11 +33,13 @@ footer{
     color:white;
     margin:0;
     letter-spacing:1px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 550;
 }
 
 .card h1{
     margin:0;
-    font-family: "Eurostile", sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-weight: 550;
     font-size: 20px;
 }
@@ -48,65 +50,33 @@ footer{
     align-items:center;
     margin-top:60px;
 }
-
-.footer-label h4{
-    color:white;
-    font-weight:200;
-    letter-spacing:1px;
-}
 .name{
     color:#0ef8d1;
-    font-weight:bold;
+    font-Family: "Lucida Console", "Courier New", monospace;
+    font-Weight: 700;
 }
 
-
-@media (max-width:992px){
-
-    .container{
-        justify-content:center;
-        gap:40px;
-    }
-
-    .card{
-        width:180px;
-    }
-
-    .icon{
-        font-size:45px;
-    }
-
-    .card h1{
-        font-size:18px;
-    }
-}
 
 @media (max-width:768px){
-
     footer{
         padding:60px 20px;
     }
-
     .container{
         flex-direction:column;
         gap:35px;
     }
-
     .card{
         width:100%;
     }
-
     .icon{
         font-size:40px;
     }
-
     .card h3{
         font-size:18px;
     }
-
     .card h1{
         font-size:16px;
     }
-
     .footer-label{
         margin-top:40px;
         text-align:center;
@@ -132,8 +102,8 @@ footer{
         font-size:14px;
     }
 
-    .footer-label h4{
+    /* .footer-label h4{
         font-size:14px;
-    }
+    } */
 
 }

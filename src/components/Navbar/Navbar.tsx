@@ -8,7 +8,7 @@ export const Navbar = () => {
         <div className={style.content}>
 
             <div className={style.logo}>
-              <Text variant= "h1" style={{color: "#0ef8d1"}} > HYKROX </Text>
+              <Text variant= "h1" style={{color: "#0ef8d1",fontFamily: "Lucida Console, Courier New, monospace", fontWeight:500}} > HYKROX </Text>
               <Text variant={"p"} style={{color: "#0ef8d1"}}> unique designs </Text>
             </div>
 

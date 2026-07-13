@@ -12,21 +12,20 @@ function App() {
     <>
      <div className ='page-container'> 
        
-     <div className ='bg-text-container'>
-      <h1 className='vertical-text'>HYKROX</h1> 
-    </div>
+       <div className ='bg-text-container'>
+         <h1 className='vertical-text'>HYKROX</h1> 
+       </div>
+
       <div className='main-content'>
           <Navbar/>
           <Hero/> 
           <Section/>   
           <About/>
-       
+          <Footer/>
       </div>
-    </div>
-
-   <Footer/>
-   
+     </div>
     </>
   )
 }
+
 export default App

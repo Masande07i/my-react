@@ -21,11 +21,6 @@ nav{
     flex-direction: column; 
     line-height: 0.3; 
 }
-
-.logo h1{
-    font-family: "Eurostile", sans-serif;
-    font-weight: 500;
-}
 .logo p{ 
     margin-top: 8px;
     font-size: 14px;
@@ -35,77 +30,68 @@ nav{
 .links{
     display: flex;
     align-items: center;
-    gap : 35px;
+    gap : 35px; 
 }
 
 .link{
     text-decoration: none; 
-    font-family: "Eurostile", sans-serif;
-    font-weight: 750;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: 400;
     color: #0ef8d1; 
     padding:5px  ; 
     cursor: pointer; 
-
 }
 .link:hover{
     color : white;
 }
 
 
-@media (max-width:992px){
-
+@media(max-width: 992px){
+    nav{
+        padding: 20px;
+    }
     .content{
         width:100%;
+        flex-direction: column;
     }
-
     .links{
-        gap:20px;
+        flex-wrap: wrap;
+        min-height: fit-content;
+        gap: 5px;
+        font-size: 13px;
     }
-
-    .link{
-        font-size:14px;
-    }
-
-    .logo h1{
-        font-size:28px;
-    }
-
 }
 
 @media (max-width:768px){
-
     nav{
-        padding:20px;
+        padding:20px; 
+    
     }
-
     .content{
         width:100%;
+        flex-direction: column;
     }
-
     .links{
-        display:none;
+        flex-wrap: wrap;
+        min-height: fit-content;
+        gap: 5px;
+        font-size: 13px;
     }
-
-    .logo h1{
-        font-size:24px;
-    }
-
-    .logo p{
-        font-size:12px;
-    }
-
 }
-@media (max-width:480px){
 
+@media (max-width:480px){
     nav{
         padding:15px;
     }
-
-    .logo h1{
-        font-size:20px;
+    .content{
+        width:100%;
+        flex-direction: column;
     }
-
-    .logo p{
-        font-size:11px;
+    .links{
+        min-height: fit-content;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: center; 
+        font-size: 13px;   
     }
 }

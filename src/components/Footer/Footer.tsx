@@ -41,7 +41,7 @@ export const Footer = () => {
 
 
         <div className={style['footer-label']}>
-          <Text variant='h4' style={{color:"white"}}> DESIGN BY{" "}
+          <Text variant='h4' style={{color: "white", fontFamily:"Montserrat, sans-serif", fontWeight: 700}} > DESIGN BY{" "}
           <span className={style.name}>HYKROX</span>
         </Text>
       </div>

@@ -6,7 +6,6 @@
     justify-content:space-between;
     align-items:center;
     gap:80px;
-
 }
 
 .left{
@@ -66,7 +65,7 @@
     }
 
     .image{
-        width:450px;
+        width:250px;
     }
 
 }
@@ -83,6 +82,7 @@
 
     .left{
         order:1;
+        margin-top: 20px;
     }
 
     .right{
@@ -104,13 +104,15 @@
 
     .image{
         width:100%;
-        max-width:400px;
-        box-shadow:30px 25px 25px -10px #0d937d;
+        border-radius:20px;
     }
-
 }
 
 @media (max-width:480px){
+
+    .left{
+        margin-top: 70px;
+    }
 
     .hero{
         padding:100px 15px 40px;
