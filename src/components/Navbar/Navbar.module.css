@@ -1,15 +1,13 @@
 nav{
     position:absolute;
-    top:0;
-    left:0;
     width:100%;
-    padding:20px 30px;
+    padding:20px;
     
 }
 
 .content{
-   max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1050px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,20 +15,16 @@ nav{
 }
 
 .logo{
-    display: flex;
-    flex-direction: column; 
     line-height: 0.3; 
 }
 .logo p{ 
-    margin-top: 8px;
-    font-size: 14px;
+    font-size: 11px;
     text-align: center;
 }
 
 .links{
     display: flex;
-    align-items: center;
-    gap : 35px; 
+    gap : 30px; 
 }
 
 .link{
@@ -38,7 +32,7 @@ nav{
     font-family: "Lucida Console", "Courier New", monospace;
     font-weight: 400;
     color: #0ef8d1; 
-    padding:5px  ; 
+    padding: 5px  ; 
     cursor: pointer; 
 }
 .link:hover{
@@ -46,7 +40,7 @@ nav{
 }
 
 
-@media(max-width: 992px){
+@media(max-width: 1113px){
     nav{
         padding: 20px;
     }
@@ -55,43 +49,19 @@ nav{
         flex-direction: column;
     }
     .links{
-        flex-wrap: wrap;
-        min-height: fit-content;
         gap: 5px;
         font-size: 13px;
     }
 }
-
-@media (max-width:768px){
-    nav{
-        padding:20px; 
-    
-    }
-    .content{
-        width:100%;
-        flex-direction: column;
-    }
-    .links{
-        flex-wrap: wrap;
-        min-height: fit-content;
-        gap: 5px;
-        font-size: 13px;
-    }
-}
-
 @media (max-width:480px){
-    nav{
-        padding:15px;
-    }
     .content{
         width:100%;
         flex-direction: column;
     }
     .links{
         min-height: fit-content;
-        flex-direction: row;
         flex-wrap: wrap;
-        justify-items: center; 
         font-size: 13px;   
+        flex-direction: row;
     }
 }

@@ -1,18 +1,9 @@
 .section {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 80px;
     max-width: 900px;
     margin: 0 auto;
-    padding: 80px 40px;
-    min-height: 100vh;
-
-}
-
-.left {
-    flex:1;
-    
+    min-height: 40vh;
 }
 
 .left h1{
@@ -29,7 +20,7 @@
 
 .line {
     width: 100px;
-    height: 1.5px;
+    height: 1px;
     background-color: #0ef8d1;
 }
 
@@ -55,10 +46,6 @@
     color: black;
 }
 
-.right {
-    flex: 1;
-    
-}
 .cards{
     display:grid;
     grid-template-columns:repeat(2,1fr);
@@ -80,7 +67,7 @@
         max-width:420px;
     }
     .button{
-        width:50%;
+        width:30%;
     }
 
 }
@@ -89,9 +76,9 @@
 
     .section{
         flex-direction:column;
-        text-align:center;
         gap:50px;
         padding:60px 20px;
+        place-items: center;
     }
     .cards{
         max-width:400px;
@@ -100,6 +87,7 @@
     }
     .button{
         width:30%;
+        place-items: center;
     }
 }
 

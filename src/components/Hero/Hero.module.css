@@ -1,11 +1,9 @@
 .hero{
     max-width:950px; 
     margin:auto;
-    min-height:95vh;
+    min-height:75vh;
     display:flex;
-    justify-content:space-between;
     align-items:center;
-    gap:80px;
 }
 
 .left{
@@ -26,12 +24,11 @@
 
 .line{
     width:100px;
-    height:1.5px;
+    height:1px;
     background:#0ef8d1;
 }
 
 .left p{
-    line-height:1.8;
     color: white;
     font-size:15px;
     max-width:580px;
@@ -43,64 +40,24 @@
 }
 
 .image{
-    width:600px;
     max-width:100%;
     border-radius:30px;
-    box-shadow: 70px 50px 40px -10px #0d937d ;
+    box-shadow: 70px 50px 50px -20px #0d937d ;
 }
 
-@media (max-width:992px){
+@media (max-width:1113px){
 
     .hero{
         max-width:90%;
         gap:40px;
     }
-
-    .left h1{
-        font-size:42px;
-    }
-
-    .left p{
-        font-size:14px;
-    }
-
     .image{
-        width:250px;
+        width:230px;
     }
 
 }
 
 @media (max-width:768px){
-
-    .hero{
-        flex-direction:column;
-        text-align:center;
-        justify-content:center;
-        gap:50px;
-        padding:120px 20px 60px;
-    }
-
-    .left{
-        order:1;
-        margin-top: 20px;
-    }
-
-    .right{
-        order:2;
-    }
-
-    .line{
-        margin:20px auto;
-    }
-
-    .left h1{
-        font-size:34px;
-    }
-
-    .left p{
-        max-width:100%;
-        font-size:15px;
-    }
 
     .image{
         width:100%;
@@ -109,23 +66,14 @@
 }
 
 @media (max-width:480px){
-
     .left{
-        margin-top: 70px;
+         margin-top: 70px;
     }
-
     .hero{
+        flex-direction:column;
         padding:100px 15px 40px;
-        gap:35px;
-    }
-
-    .left h1{
-        font-size:28px;
-    }
-
-    .left p{
-        font-size:14px;
-        line-height:1.6;
+        gap:95px;
+        min-height: 30px;
     }
 
     .image{

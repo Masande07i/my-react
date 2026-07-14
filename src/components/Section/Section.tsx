@@ -45,24 +45,22 @@ const [services] = useState([
         <button className={style.button}>VIEW ALL</button>
       </div>
 
-       <div className={style.right}> 
-      
         <div className={style.cards}>
           {
           services && services.length> 0 && services.map(product =>
           {
             return <SectionCard 
+             key={product.id}
              icon={product.icon}
              title ={product.title}
              description= {product.description}
-             id={product.id}
+             
              />
              
           })
           }
          </div> 
 
-      </div> 
     </section>
   );
 };

@@ -7,11 +7,11 @@ type SectionProps={
     icon: IconType
     title: string,
     description : string,
-    id: number;
+    
 
 }
 
-export const SectionCard: React.FC<SectionProps> = ({icon:Icon, title,  description }) => {
+export const SectionCard: React.FC<SectionProps> = ({icon:Icon, title,  description}) => {
   return (
     <div className= {style.card}>
         <Icon className ={style.icon}/> 
