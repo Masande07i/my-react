@@ -7,17 +7,27 @@ type SectionProps={
     icon: IconType
     title: string,
     description : string,
-    
+    variant : string
 
 }
 
-export const SectionCard: React.FC<SectionProps> = ({icon:Icon, title,  description}) => {
+export const SectionCard: React.FC<SectionProps> = ({icon:Icon, title,  description, variant}) => {
   return (
-    <div className= {style.card}>
+  <>
+    {variant === "one" ? 
+    (<div className= {style.card}>
         <Icon className ={style.icon}/> 
         <Text variant ={'h2'}>{title}</Text>
-        <Text variant ={'p'}>{description}</Text>
-        
-    </div>
+        <Text variant ={'p'}>{description}</Text> 
+    </div>):
+    (<div className= {style.card2}>
+      <div className= {style.top}>
+        <Icon className ={style.icon}/> 
+        <Text variant ={'h2'}>{title}</Text>
+        </div>
+        <Text variant ={'p'}>{description}</Text> 
+    </div>)}
+    
+    </>
   )
 }

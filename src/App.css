@@ -39,6 +39,19 @@ body{
    z-index: 2; 
 }
 
+@media(width <= 768px ){
+   .vertical-text{
+   font-weight: 50;
+   letter-spacing: 250px;
+   }
+}
+@media(width <= 481px){
+   .vertical-text{
+   font-weight: 50;
+   letter-spacing: 450px;
+   }
+}
+
 
 
 

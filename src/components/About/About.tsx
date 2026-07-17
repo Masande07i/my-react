@@ -2,8 +2,15 @@ import style from './About.module.css'
 import AboutImage from '../../assets/SectionCard.png'
 import Text from '../Text/Text.tsx'
 import { FaEye,  FaWindowRestore } from 'react-icons/fa'
+import {useState} from "react"
+import { SectionCard } from '../SectionCard/SectionCard.tsx'
 
 export const About = () => {
+
+  const [features] = useState([
+    {icon: FaEye, title:"Clean Code", description: "Lorem Ipsum is simply dummy text of the printing.",id:1},
+    {icon:FaWindowRestore, title:"Modern Design", description:"Lorem Ipsum is simply dummy text of the printing.",id:2}
+  ])
   return (
     <section className={style.about}>
 
@@ -31,26 +38,19 @@ export const About = () => {
              </Text>
 
              <div className={style.features}>
+               {
+              features && features.length> 0 && features.map(product =>
+                {
+                return <SectionCard variant=" "
+                 key={product.id}
+                 icon={product.icon}
+                 title={product.title}
+                 description={product.description}
+                 />
+               })
+               }
 
-                <div className={style.card}>
-                  <div className={style.header}>
-                   <FaEye className={style.icon} />
-                   <Text variant="h3" style={{ color: "white" }}> Clean Code</Text>
-                  </div>
-                   <Text variant="p" style={{ color: "white" }}>
-                    Lorem Ipsum is simply dummy text of the printing.
-                   </Text>
-                </div>
 
-                <div className={style.card}>
-                  <div className={style.header}>
-                   <FaWindowRestore className={style.icon} />
-                   <Text variant="h3" style={{ color: "white" }}>Modern Design</Text>
-                 </div>
-                   <Text variant="p" style={{ color: "white" }}>
-                    Lorem Ipsum is simply dummy text of the printing.
-                   </Text>
-                </div>
 
             </div>
         </div>

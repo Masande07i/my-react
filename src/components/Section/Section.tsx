@@ -49,11 +49,13 @@ const [services] = useState([
           {
           services && services.length> 0 && services.map(product =>
           {
-            return <SectionCard 
+            return <SectionCard variant="one"
+            
              key={product.id}
              icon={product.icon}
              title ={product.title}
              description= {product.description}
+             
              
              />
              
